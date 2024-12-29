@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ExploresByMahnoor
 
-First, run the development server:
+ExploresByMahnoor is a blog website built using **Next.js 15**, **TypeScript**, and **Tailwind CSS**. It serves as a platform to share engaging content, categorized into various topics such as Tech, Travel, Web Development, Learning, and Self Motivation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> **Note:** This is a dummy website created as part of an assignment project for the **GIAIC** course.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dynamic Posts:**
+  - Posts are fetched dynamically and displayed based on categories.
+  - Featured post functionality highlights a special article on the homepage.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Responsive Design:**
+  - Fully responsive layout ensures compatibility across devices (mobile, tablet, and desktop).
 
-## Learn More
+- **Interactive UI:**
+  - Includes a comment section for users to add and view comments.
 
-To learn more about Next.js, take a look at the following resources:
+- **Local Storage:**
+  - Comments are stored locally in the browser for each post.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Static and Dynamic Routes:**
+  - Leverages Next.js dynamic routes for individual blog pages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pages
 
-## Deploy on Vercel
+### Home
+- Displays featured post and links to recent posts.
+- Includes a responsive footer and header.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### About
+- Contains information about the blog's purpose and the creator.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Contact
+- Provides a form for visitors to reach out to the blog's creator.
+
+### Categories
+- Lists blog posts filtered by categories like Tech, Web Development, and more.
+
+## Technologies Used
+
+- **Next.js 15**: Framework for React-based development.
+- **TypeScript**: Type-safe codebase.
+- **Tailwind CSS**: Utility-first CSS framework for responsive and customizable styling.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd exploresbymahnoor
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:3000`.
+
+
+
+## Contribution
+
+This is a personal project for the **GIAIC** course assignment and not open for external contributions.
+
+## License
+
+This project is not licensed for public use. It is solely for educational purposes.
+
+---
+
+Enjoy exploring **ExploresByMahnoor**! If you have any questions, feel free to reach out through the contact page.
+
+
